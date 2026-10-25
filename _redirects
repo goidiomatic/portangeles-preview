@@ -1,0 +1,14 @@
+# Cloudflare Pages _redirects for portangelescounselor.com
+#
+# NOTE: counselingportangeles.com -> https://portangelescounselor.com (301)
+# Cloudflare Pages _redirects does NOT support domain-level redirects
+# (e.g. "counselingportangeles.com/* https://portangelescounselor.com/:splat 301"
+# is ignored). Do the 301 in ONE of these places instead (see ../DEPLOY.md):
+#   A) GoDaddy: Domain > Forwarding > forward counselingportangeles.com to
+#      https://portangelescounselor.com, type "Permanent (301)", "Forward only".
+#   B) Cloudflare (if the domain's DNS is on Cloudflare): Rules > Redirect Rules
+#      or Bulk Redirects: counselingportangeles.com/* and www.* ->
+#      https://portangelescounselor.com/${path}, 301, preserve query string.
+#
+# Path-level redirects for this site go below, one per line: [source] [destination] [code]
+# /old-page /#contact 301
