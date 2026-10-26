@@ -131,6 +131,8 @@ p{margin:0 0 1em}
 .person h2{margin-bottom:10px}
 .person-cred{font-size:1.05rem;color:var(--muted);margin-bottom:28px}
 .bio{display:inline-block;font-size:1.05rem;margin-bottom:12px}
+.person-photo{margin:0 0 32px;max-width:280px;padding:8px;background:var(--white);border:1px solid var(--ink);box-shadow:4px 4px 0 var(--paper-3)}
+.person-photo img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;filter:saturate(.92) contrast(1.02)}
 .photo-note{display:inline-block;font-size:.9rem;margin-bottom:28px}
 .facts{margin:0;border-top:1px solid var(--line)}
 .facts div{display:grid;grid-template-columns:140px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
