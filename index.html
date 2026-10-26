@@ -58,6 +58,10 @@
       "name": "Adam Sullivan",
       "honorificSuffix": "LMHC",
       "jobTitle": "Licensed Mental Health Counselor",
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Cornell University" },
+        { "@type": "CollegeOrUniversity", "name": "Antioch University" }
+      ],
       "telephone": "+1-206-486-5642",
       "email": "adam@portangelescounselor.com"
     }
@@ -226,9 +230,6 @@
 <!-- 5. ABOUT -->
 <section class="section about" id="about" aria-labelledby="about-title">
   <div class="container about-grid">
-    <figure class="about-card reveal">
-      <img src="assets/img/floral-card-rose.jpg" alt="The practice&rsquo;s floral card: Adam Sullivan Counseling, Port Angeles Counselor, 206-486-LMHC" width="1100" height="733" loading="lazy">
-    </figure>
     <!--
       ===================== COUNSELOR DATA (editable) =====================
       One <article class="person"> per counselor. To add a counselor, copy the
@@ -236,22 +237,27 @@
       JSON-LD "employee" list. Replace [bracketed placeholders] with facts only.
       =====================================================================
     -->
+    <div class="person-media reveal">
+      <figure class="person-photo">
+        <picture>
+          <source type="image/webp" srcset="assets/img/adam-sullivan-800.webp 800w, assets/img/adam-sullivan-1600.webp 1600w" sizes="(max-width: 900px) 80vw, 440px">
+          <img src="assets/img/adam-sullivan-800.jpg" srcset="assets/img/adam-sullivan-800.jpg 800w, assets/img/adam-sullivan-1600.jpg 1600w" sizes="(max-width: 900px) 80vw, 440px" alt="Adam Sullivan, LMHC" width="800" height="1000" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+      <figure class="about-card">
+        <img src="assets/img/floral-card-rose.jpg" alt="The practice&rsquo;s floral card: Adam Sullivan Counseling, Port Angeles Counselor, 206-486-LMHC" width="1100" height="733" loading="lazy">
+      </figure>
+    </div>
     <article class="person" id="adam-sullivan">
       <p class="eyebrow reveal">About the counselor</p>
       <h2 id="about-title" class="reveal">Adam Sullivan</h2>
       <p class="person-cred reveal">Licensed Mental Health Counselor &middot; Washington</p>
-      <p class="placeholder bio reveal">[Bio to be provided: background, training, and approach in Adam&rsquo;s own words.]</p>
-      <figure class="person-photo reveal">
-        <picture>
-          <source type="image/webp" srcset="assets/img/adam-sullivan-800.webp 800w, assets/img/adam-sullivan-1600.webp 1600w" sizes="(max-width: 600px) 70vw, 280px">
-          <img src="assets/img/adam-sullivan-800.jpg" srcset="assets/img/adam-sullivan-800.jpg 800w, assets/img/adam-sullivan-1600.jpg 1600w" sizes="(max-width: 600px) 70vw, 280px" alt="Adam Sullivan, LMHC" width="800" height="1000" loading="lazy" decoding="async">
-        </picture>
-      </figure>
-      <dl class="facts reveal">
-        <div><dt>License</dt><dd>LMHC, Washington State <span class="placeholder">[WA DOH credential number]</span></dd></div>
-        <div><dt>Education</dt><dd><span class="placeholder">[Degree and institution to be provided]</span></dd></div>
-        <div><dt>Sessions</dt><dd>In person &amp; Washington telehealth</dd></div>
-      </dl>
+      <p class="placeholder bio reveal">[Bio in Adam&rsquo;s own words, to be provided]</p>
+      <ul class="studies reveal" aria-label="Education">
+        <li><span class="deg">BA</span><span class="field">English</span><span class="inst">Cornell University</span></li>
+        <li><span class="deg">MA</span><span class="field">Applied Psychology</span><span class="inst">Antioch University</span></li>
+      </ul>
+      <p class="sessions-note reveal">In person, or by telehealth anywhere in Washington.</p>
     </article>
     <!-- ================= END COUNSELOR DATA ================= -->
   </div>
