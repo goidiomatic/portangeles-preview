@@ -126,11 +126,9 @@ p{margin:0 0 1em}
 
 /* About */
 .about-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(48px,8vw,128px);align-items:center}
-.person-media{position:relative;max-width:440px;width:100%;justify-self:end;margin-right:clamp(0px,3vw,40px);margin-bottom:56px}
+.person-media{position:relative;max-width:440px;width:100%;justify-self:end;margin-right:clamp(0px,3vw,40px)}
 .person-photo{margin:0;padding:10px;background:var(--white);border:1px solid var(--ink);box-shadow:6px 6px 0 var(--paper-3)}
 .person-photo img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;filter:saturate(.92) contrast(1.02)}
-.about-card{margin:0;position:absolute;right:clamp(-40px,-3vw,-16px);bottom:-56px;width:52%;transform:rotate(-3deg)}
-.about-card img{border-radius:3px;box-shadow:0 24px 44px -20px rgba(40,25,10,.5),0 3px 8px -3px rgba(40,25,10,.22)}
 .person h2{margin-bottom:12px}
 .person-cred{font-size:1.05rem;color:var(--muted);margin-bottom:28px}
 .bio{display:inline-block;font-size:1.05rem;margin-bottom:40px}
@@ -245,9 +243,8 @@ p{margin:0 0 1em}
   .contact-list div{grid-template-columns:1fr;gap:2px}
   .studies li{grid-template-columns:36px minmax(0,1fr);row-gap:4px}
   .studies .inst{grid-column:2;text-align:left}
-  .person-media{justify-self:start;max-width:none;width:calc(100% - 28px);margin-right:0}
-  .about-card{right:-28px;width:58%}
-  .footer-grid{grid-template-columns:1fr}
+  .person-media{justify-self:start;max-width:none;width:100%;margin-right:0}
+    .footer-grid{grid-template-columns:1fr}
   .crisis{margin-top:48px;padding:20px}
 }
 @media print{.site-header,.topbar,.hero-media,.approach-photo{display:none}.reveal{opacity:1!important;transform:none!important}}
